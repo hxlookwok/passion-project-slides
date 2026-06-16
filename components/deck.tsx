@@ -4,6 +4,10 @@ import { useCallback, useEffect, useState } from "react"
 import { ChevronLeft, ChevronRight, Presentation } from "lucide-react"
 import { lessons } from "@/lib/slides-data"
 import { TitleSlide } from "@/components/slides/title-slide"
+import { HookSlide } from "@/components/slides/hook-slide"
+import { FormulaSlide } from "@/components/slides/formula-slide"
+import { BuildTogetherSlide } from "@/components/slides/build-together-slide"
+import { WhereThisGoesSlide } from "@/components/slides/where-this-goes-slide"
 import { OverviewSlide } from "@/components/slides/overview-slide"
 import { LessonSlide } from "@/components/slides/lesson-slide"
 import { OutcomeSlide } from "@/components/slides/outcome-slide"
@@ -13,6 +17,10 @@ type SlideItem = { id: string; label: string; render: () => React.ReactNode }
 
 const slides: SlideItem[] = [
   { id: "title", label: "Title", render: () => <TitleSlide /> },
+  { id: "hook", label: "Mini · Hook", render: () => <HookSlide /> },
+  { id: "formula", label: "Mini · Formula", render: () => <FormulaSlide /> },
+  { id: "build", label: "Mini · Build It", render: () => <BuildTogetherSlide /> },
+  { id: "where", label: "Mini · Where It Goes", render: () => <WhereThisGoesSlide /> },
   { id: "overview", label: "Overview", render: () => <OverviewSlide /> },
   ...lessons.map((lesson) => ({
     id: `lesson-${lesson.number}`,
