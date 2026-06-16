@@ -45,7 +45,7 @@ export function HookSlide() {
       <div className="mx-auto mt-10 flex max-w-2xl items-start gap-3 rounded-2xl border border-primary/30 bg-primary/5 p-5 text-left">
         <MessageCircleQuestion className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
         <div>
-          <p className="text-xs font-semibold uppercase tracking-wide text-primary">Ask the student right away</p>
+          <p className="text-xs font-semibold uppercase tracking-wide text-primary">Think about this</p>
           <p className="mt-1 text-pretty text-base font-medium italic leading-relaxed text-foreground md:text-lg">
             &ldquo;{miniHook.studentQuestion}&rdquo;
           </p>

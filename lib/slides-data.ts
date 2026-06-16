@@ -189,7 +189,7 @@ export const miniHook = {
   title: "Build Your Own Passion Project",
   subtitle: "Turning something you care about into something real",
   kicker: "5-Minute Mini Lesson",
-  studentQuestion: "If you could improve one thing in your school or community, what would it be?",
+  studentQuestion: " improve one thing in your school or community, what would it be?",
 }
 
 export type FormulaStep = {
