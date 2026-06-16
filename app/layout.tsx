@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Build Your Own Passion Project | 8-Week Mentorship',
   description:
-    'An interactive 8-lesson Passion Project mentorship plan — taking a student from idea to launch, built for Curious Cardinals.',
+    'An interactive 8-lesson Passion Project mentorship plan, taking a student from idea to launch.',
   generator: 'v0.app',
   icons: {
     icon: [
