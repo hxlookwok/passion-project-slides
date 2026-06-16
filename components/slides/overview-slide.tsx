@@ -11,7 +11,7 @@ export function OverviewSlide() {
         From idea to launch in 8 sessions
       </h2>
       <p className="mt-4 max-w-2xl text-pretty text-base text-muted-foreground md:text-lg">
-        Every week builds on the last. You will not just learn about building — you will actually build, test, and
+        Every week builds on the last: you will create, test, iterate, and
         launch something real.
       </p>
 
