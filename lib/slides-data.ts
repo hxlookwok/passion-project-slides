@@ -16,6 +16,7 @@ import {
   Brain,
   Megaphone,
   Mic,
+  HeartHandshake,
 } from "lucide-react"
 
 export type Lesson = {
@@ -181,3 +182,48 @@ export const sessionType = {
   type: "Passion Project (PP)",
   icon: GraduationCap,
 }
+
+/* ---------- 5-minute mini lesson (live teaching demo) ---------- */
+
+export const miniHook = {
+  title: "Build Your Own Passion Project",
+  subtitle: "Turning something you care about into something real",
+  kicker: "5-Minute Mini Lesson",
+  studentQuestion: "If you could improve one thing in your school or community, what would it be?",
+}
+
+export type FormulaStep = {
+  word: string
+  question: string
+  icon: LucideIcon
+}
+
+export const formulaSteps: FormulaStep[] = [
+  { word: "Passion", question: "What do you care about?", icon: HeartHandshake },
+  { word: "Problem", question: "What's something frustrating or broken?", icon: Brain },
+  { word: "Project", question: "What could you build or start to help?", icon: Rocket },
+]
+
+export const passionExamples = ["sports", "animals", "music", "climate", "gaming", "mental health"]
+
+export const buildExample = {
+  passion: "animals",
+  problem: "shelters are overcrowded",
+  project: "student-run adoption awareness campaign",
+}
+
+export const projectPath = [
+  { label: "Idea", icon: Lightbulb },
+  { label: "Audience", icon: Users },
+  { label: "Prototype", icon: PencilRuler },
+  { label: "Test", icon: MessageSquareHeart },
+  { label: "Launch", icon: Rocket },
+]
+
+export const whereThisGoesOutcomes = [
+  "A small nonprofit campaign",
+  "A website or app idea",
+  "A podcast or media project",
+  "A student startup",
+  "A community event",
+]

@@ -20,7 +20,7 @@ export function TitleSlide() {
         Build Your Own <span className="text-primary">Passion Project</span>
       </h1>
       <p className="mt-5 max-w-2xl text-pretty text-lg text-muted-foreground md:text-2xl">
-        Turning an idea into something real in 8 weeks.
+        Lesson plan that helps turn your idea into reality in 8 weeks.
       </p>
 
       <div className="mt-12 grid w-full max-w-3xl grid-cols-2 gap-3 text-left md:grid-cols-4">
